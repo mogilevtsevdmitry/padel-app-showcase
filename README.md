@@ -31,6 +31,18 @@ flowchart LR
 
 `TypeScript` · `React Native` · `Expo` · `React` · `NestJS` · `PostgreSQL` · `Prisma` · `Redis` · `BullMQ` · `WebSocket` · `Docker`
 
+## Обезличенный пример контракта бронирования
+
+```ts
+type BookingDraft = {
+  courtId: string;
+  startsAt: string;
+  playerIds: string[];
+};
+```
+
+*Это схематичный публичный контракт, не production-код и не пользовательские данные.*
+
 ## О репозитории
 
 Это публичная продуктовая витрина. В ней нет production-кода, ключей внешних сервисов, пользовательских данных, конфигурации инфраструктуры или развёртывания.
